@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "ash_tracer",
+	"version": "${version}",
+	"name": "ASH TRACER",
+	"description": "Read the intent etched into souls, gather Ash, and challenge the Hollow Empire.",
+	"authors": [
+		"nalak1206"
+	],
+	"contact": {
+		"sources": "https://github.com/nalak1206/ash-tracer"
+	},
+	"license": "All-Rights-Reserved",
+	"icon": "assets/ash_tracer/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.nalak1206.ashtracer.AshTracer"
+		],
+		"client": [
+			"dev.nalak1206.ashtracer.client.AshTracerClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
